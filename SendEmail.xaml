@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1083,830</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1208,830</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>SendEmail_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="21">
@@ -61,7 +61,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="438,92" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Adj meg egy e-mailt" Title="Input email">
+    <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="438,92" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Adjon meg egy e-mail címet!" Title="Input email">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[email]</OutArgument>
       </ui:InputDialog.Result>
